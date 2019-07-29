@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile number"
+        android:textSize="20sp"
+        android:id="@+id/phn_number"
+        android:inputType="number"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Enter Mobile number"
+        android:gravity="top"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/phn_message"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_margin="20dp"
+        android:onClick="btn_send"
+        android:id="@+id/btn_send"
+        />
+
+</LinearLayout>
